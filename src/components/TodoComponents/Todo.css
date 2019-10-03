@@ -1,0 +1,75 @@
+.main {
+    display: flex;
+    margin: 2rem 20rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    flex-direction: column;
+}
+
+.taskForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+
+}
+
+.formButton {
+    border-radius: .5rem;
+    padding: .5rem;
+    margin: .3rem;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+.taskInput {
+    margin: .3rem;
+    border-radius: .5rem;
+    padding: .3rem;
+    font-family: 'Raleway', sans-serif;
+    width: 10rem;
+
+}
+
+.tasks {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.taskDiv {
+    width: auto;
+    padding: .2rem 1rem;
+    font-family: 'Raleway', sans-serif;
+    margin: .2rem;
+    margin-right: 22rem;
+}
+
+.add {
+    background-color: forestgreen;
+    color: white;
+    font-weight: 800;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+    font-weight: 800;
+}
+
+.completed {
+    background-color: red;
+}
+
+h1 {
+    font-family: 'Mansalva', cursive;
+    margin-top: 2rem;
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+}
+
